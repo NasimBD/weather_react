@@ -1,0 +1,66 @@
+
+*{
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.app{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(5, 5, 85, 0.6)), url(./assets/sky.jpg) center/cover no-repeat;
+}
+
+.error{
+  max-width: 400px;
+}
+
+form{
+  /* width: 100%; */
+  max-width: 800px;
+  /* outline: solid; */
+}
+
+.form-group{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.671);
+  transition: 0.4s;
+
+}
+
+.form-group:focus-within{
+  border-bottom: 1px solid rgba(0, 140, 255, 0.874);
+}
+
+::placeholder{
+  font-size: 1.2rem;
+  color: rgb(106, 106, 106);
+}
+
+.form-control:focus{
+ /* Bootstrap 5 */
+  box-shadow: none !important;
+  /* background-color: transparent; */
+}
+
+/* ----------------------------- media */
+/* ----------------------------- 1 */
+@media screen and (max-width:576px){
+    html{
+      font-size: 13px;
+    }
+
+
+  }
+  
+  /* ----------------------------- 2 */
+  @media screen and (min-width:576px) and (max-width:769px){
+    html{
+      font-size: 15px;
+    }
+  }
+  /* ----------------------------- 3 */
+  @media screen and (min-width:769px){
+    html{
+      font-size: 16px;
+    }
+  }
